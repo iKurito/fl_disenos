@@ -32,10 +32,9 @@ class _HomeBody extends StatelessWidget {
   Widget build(BuildContext context) {
     return SingleChildScrollView(
       child: Column(
-        children: const [
-          // Titulos
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children:  const [
           PageTitle(),
-          // Card Table
           CardTable()
         ],
       )
